@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Vosk models
+vosk-model*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
