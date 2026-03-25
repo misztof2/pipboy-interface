@@ -52,3 +52,31 @@ Notes
 Designed for real-time interaction
 No cloud dependencies
 Fully local system
+
+### 
+```
+### useful comands :
+
+adb connect YOUR_IP
+adb devices
+
+
+# And then:
+export DISPLAY=:0
+export XAUTHORITY=/home/awe/.Xauthority
+
+scrcpy --tcpip=YOUR_IP \
+  --fullscreen \
+  --max-size=640 \
+  --max-fps=30 \
+  --video-bit-rate=4M \
+  --capture-orientation=0 \
+  --window-borderless \
+  --stay-awake &
+
+
+
+
+
+
+
